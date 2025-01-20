@@ -13,13 +13,13 @@ public class Principal {
 		String titulo;
 		int numPag;
 		String autor;
-		int edad;
+		
 		Scanner lectura = null;
 
 		Libros libro;
      
 		int menuPrincipal, subMenu;
-		System.out.println("Modificando este proyecto");
+	
 		LogicaMetodos imp = new LogicaMetodos();
 		try {
 
